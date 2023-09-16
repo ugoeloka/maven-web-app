@@ -90,7 +90,7 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Acada Learning Releases Nexus Repository</name>
-	      <url>http://172.31.26.119:8081/repository/rbc_releases/</url>
+	      <url>http://172.31.26.119:8081/repository/rbc_release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
