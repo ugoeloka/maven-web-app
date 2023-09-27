@@ -2,7 +2,7 @@ node ("agent2") {
   def MHD = tool name: "maven3.9.1"
   stage('Clone from Github') {
     sh 'echo Cloning from GitHub'
-    git branch: 'master', credentialsId: 'github_cred', url: 'https://github.com/ugoeloka/maven-web-app.git'
+    git https://github.com/ugoeloka/maven-web-app.git'
     sh 'echo cloning done'
   }
   stage('Build with Maven') {
