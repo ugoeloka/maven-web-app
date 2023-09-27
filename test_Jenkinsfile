@@ -1,4 +1,4 @@
-node ("agent2") {
+node {
   def MHD = tool name: "maven3.9.1"
   stage('Clone from Github') {
     sh 'echo Cloning from GitHub'
