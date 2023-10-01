@@ -3,12 +3,13 @@ BIN_DIR = bin
 all: clean build
 
 build:
-	@echo "Building this project.."
+	@echo "Building..."
 	mkdir $(BIN_DIR)
 
 clean:
-	@echo "Cleaning up..."
+	@echo "cleaning..."
 	rm -rf $(BIN_DIR)
 
 test:
-	@echo "Testing..."
+	@echo "Running tests..."
+
