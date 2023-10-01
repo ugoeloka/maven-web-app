@@ -1,15 +1,14 @@
-DEF_AUTH = tap
+BIN_DIR = bin
 
 all: clean build
 
-build:
-	@echo "Building..."
-	mkdir $(DEF_AUTH)
-
 clean:
 	@echo "cleaning..."
-	#rm -rf $(DEF_AUTH)
+	rm -rf $(BIN_DIR)
+
+build:
+	@echo "Building..."
+	mkdir $(BIN_DIR)
 
 test:
 	@echo "Running tests..."
-
