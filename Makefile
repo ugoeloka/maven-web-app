@@ -8,7 +8,7 @@ build:
 
 clean:
 	@echo "cleaning..."
-	rm -rf $(DEF_AUTH)
+	#rm -rf $(DEF_AUTH)
 
 test:
 	@echo "Running tests..."
