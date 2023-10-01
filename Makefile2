@@ -1,0 +1,15 @@
+target1:
+	@echo "this is a function for target1"
+	@echo "targer1 can use this funtion"
+	@echo "- command1 for target 1"
+
+target2:
+	@echo "this is a function for target2"
+	@echo "target2 can use this function"
+	@echo "- command1 for target2"
+
+targeta: target1
+	@echo "targeta will run target1"
+
+targetb: target2
+	@echo "targetb will run target2"
