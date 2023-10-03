@@ -1,0 +1,16 @@
+BIN_DIR = bin
+
+all: target target1
+
+target1:
+	@echo "make a bin dir"
+	mkdir -p $(BIN_DIR)
+
+define copyfn
+	@echo "copying to bin"
+	cp Dockerfile $(BIN_DIR)
+endef
+
+target2:
+	@echo "copying dockerfile..."
+	$(call copyfn)
