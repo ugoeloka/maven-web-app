@@ -1,0 +1,9 @@
+define state
+	@echo "hello, $(1)"
+	@echo "creating $(1) using positional arg"
+endef
+
+all: target1
+
+target1:
+	$(call state, "james")
